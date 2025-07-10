@@ -4,6 +4,9 @@ import Navbar from "./sections/navbar";
 import TopBrands from "./sections/top_restaurants_glovo";
 import AnythingDelivered from './sections/AnythingDelivered';
 import Countires from './sections/countries';
+import DownloadApp from './sections/downloadApp';
+import DoItToghter from './sections/letdoittoghter';
+
 export default function App() {
   return (
     <div className="min-h-screen font-sans">
@@ -12,6 +15,8 @@ export default function App() {
        <TopBrands />
         <AnythingDelivered />
         <Countires/>
+        <DownloadApp/>
+        <DoItToghter/>
     </div>
   );
 }
