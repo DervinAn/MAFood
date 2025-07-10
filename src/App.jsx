@@ -6,6 +6,8 @@ import AnythingDelivered from './sections/AnythingDelivered';
 import Countires from './sections/countries';
 import DownloadApp from './sections/downloadApp';
 import DoItToghter from './sections/letdoittoghter';
+import Footer from './sections/footer';
+
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
         <Countires/>
         <DownloadApp/>
         <DoItToghter/>
+        <Footer/>
     </div>
   );
 }
